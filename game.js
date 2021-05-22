@@ -55,7 +55,7 @@ var checkAnswer = (currentLevel)=>{
         }
     }
     else{
-        // console.log("failure!");
+        console.log("failure!");
         playSound("wrong");
         // flashing red for game over
         $("body").addClass("game-over");
